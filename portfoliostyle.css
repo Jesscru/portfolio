@@ -1,14 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
 }
 
 .header {
     color: rgb(48, 194, 133);
+    margin-top: 2rem;
 }
 
 .header2 {
     color: rgb(48, 194, 133);
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .navbar .navbar-brand {
@@ -20,7 +22,9 @@ a .nav-link:hover {
     color: rgb(48, 194, 133);
 }
 
-.profile-pic {
-    float: left;
+.about-me-content {
+    position: relative;
+    top: 6.5rem;
+    margin-left: 2rem;
 }
 
