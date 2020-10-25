@@ -59,3 +59,24 @@ a .nav-link:hover {
     margin: 2rem;
     text-align: center;
 }
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+    /* make the nav bar a collapsed menu, change postion of text--it overlaps 
+    the photo; resize the photo  */
+}
+
+@media screen and (max-width: 768px) {
+    /* make the nav bar a collapsed menu, change postion of text--it overlaps 
+    the photo; resize the photo  */
+}
+
+@media screen and (max-width: 400px) {
+    /* make the nav bar a collapsed menu, change spacing between text and image, 
+    make the text center aligned or something; it looks weird; resize the photo */
+}
+
+
