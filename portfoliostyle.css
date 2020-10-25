@@ -1,4 +1,17 @@
-.bg-* {
-    background-color: lightseagreen;
- 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    color: rgb(48, 194, 133);
+    margin-top: 20px;
+}
+
+.navbar .navbar-brand {
+    color: rgb(48, 194, 133);
+    font-weight: 500;
+}
+/* cant get hover to work :( */
+a .nav-link:hover {
+    color: rgb(48, 194, 133);
 }
