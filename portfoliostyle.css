@@ -1,3 +1,4 @@
+/* all pages */
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -5,37 +6,56 @@ body {
     background-image: url("./images/background-white-elegant-texture.jpg");
 }
 
-.header {
-    color: rgb(48, 194, 133);
-    margin-top: 2rem;
-}
-
-.header2 {
-    color: rgb(48, 194, 133);
-    margin-top: 2rem;
-}
-
 .navbar .navbar-brand {
-    color: rgb(48, 194, 133);
+    color: rgba(0, 0, 0, 1);
     font-weight: 500;
 }
+
 /* cant get hover to work :( */
 a .nav-link:hover {
     color: rgb(48, 194, 133);
 }
 
-.about-me-content {
-    position: relative;
-    top: 6.5rem;
-    margin-left: 2rem;
+.navbar {
+    background-color:rgba(48, 194, 133, 0.3);
+}
+
+
+.nav-link {
+    color: rgb(85, 85, 85)
+}
+
+
+
+/* for index.html */
+.header {
+    color: rgb(48, 194, 133);
+    margin-top: 2rem;
 }
 
 .profile-pic {
     border: rgb(85, 85, 85) 0.25rem solid;
 }
 
-.portfolio-images {
-    margin-bottom: 2rem;
+
+
+/* for content.html */
+.about-me-content {
+    position: relative;
+    top: 6.5rem;
+    margin-left: 2rem;
+}
+
+/* header2 does all headers outside of homepage */
+.header2 {
+    color: rgb(48, 194, 133);
+    margin-top: 2rem;
 }
 
 
+
+/* for portfolio.html */
+.portfolio-images {
+    margin: 2rem;
+    text-align: center;
+}
