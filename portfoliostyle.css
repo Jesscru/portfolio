@@ -4,6 +4,11 @@ body {
 
 .header {
     color: rgb(48, 194, 133);
+    margin: 20px;
+}
+
+.header2 {
+    color: rgb(48, 194, 133);
     margin-top: 20px;
 }
 
@@ -14,4 +19,8 @@ body {
 /* cant get hover to work :( */
 a .nav-link:hover {
     color: rgb(48, 194, 133);
+}
+
+.profile-pic {
+    margin: 20px;
 }
