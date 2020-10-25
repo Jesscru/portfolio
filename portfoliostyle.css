@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/534/015/small/LW002.jpg");
 }
 
 .header {
@@ -27,4 +28,5 @@ a .nav-link:hover {
     top: 6.5rem;
     margin-left: 2rem;
 }
+
 
