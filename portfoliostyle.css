@@ -1,7 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     line-height: 1.5;
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/534/015/small/LW002.jpg");
+    background-image: url("https://img.freepik.com/free-vector/background-white-elegant-texture_23-2148438404.jpg?size=626&ext=jpg");
 }
 
 .header {
@@ -27,6 +28,10 @@ a .nav-link:hover {
     position: relative;
     top: 6.5rem;
     margin-left: 2rem;
+}
+
+.profile-pic {
+    border: black 0.25rem solid;
 }
 
 
