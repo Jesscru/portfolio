@@ -54,14 +54,15 @@ body {
 
 .other-contacts{
     text-align: center;
+    margin-top: 3rem;
     color: rgb(85, 85, 85);
 }
 
 .contact-image {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     padding: 10px;
-    margin: 5rem 0.7rem;
+    margin: 2rem 0.7rem;
 }
 
 .linkedin {
