@@ -30,11 +30,22 @@ body {
 /* for index.html */
 .header {
     color: rgb(48, 194, 133);
-    margin-top: 2rem;
+    margin: 2rem;
+}
+.about-me {
+    display: inline-flex;
+    justify-content: flex-end;
 }
 
 .profile-pic {
     border: rgb(85, 85, 85) 0.25rem solid;
+    float: left;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.about-me-text {
+    width: auto;
+    float: left;
 }
 
 
@@ -44,12 +55,6 @@ body {
 .header2 {
     color: rgb(48, 194, 133);
     margin-top: 2rem;
-}
-
-.about-me-content {
-    position: relative;
-    top: 6.5rem;
-    margin-left: 2rem;
 }
 
 .other-contacts{
@@ -63,6 +68,7 @@ body {
     height: 5rem;
     padding: 10px;
     margin: 2rem 0.7rem;
+    cursor: pointer;
 }
 
 .linkedin {
@@ -85,10 +91,23 @@ body {
 @media screen and (max-width: 992px) {
     .profile-pic {
         width: auto;
+        float: left;
+        margin: 0 2rem 2rem 2rem;
     }
 
-    .about-me-content {
+    .about-me-text {
         width: auto;
+        flex: wrap;
+    }
+
+    .navbar {
+        flex-wrap: nowrap;
+        display: inline-flex;
+    }
+
+    .navbar-nav {
+        width: auto;
+        height: auto;
     }
     /* make the nav bar a collapsed menu, change position of text--it overlaps 
     the photo; resize the photo  */
