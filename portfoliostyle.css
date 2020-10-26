@@ -34,9 +34,7 @@ body {
 }
 .about-me {
     display: inline-flex;
-    justify-content: flex-end;
 }
-
 .profile-pic {
     border: rgb(85, 85, 85) 0.25rem solid;
     float: left;
@@ -46,6 +44,8 @@ body {
 .about-me-text {
     width: auto;
     float: left;
+    position: relative;
+    top: 10rem;
 }
 
 
@@ -91,7 +91,6 @@ body {
 @media screen and (max-width: 992px) {
     .profile-pic {
         width: auto;
-        float: left;
         margin: 0 2rem 2rem 2rem;
     }
 
