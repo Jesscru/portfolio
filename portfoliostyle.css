@@ -52,6 +52,21 @@ body {
     margin-left: 2rem;
 }
 
+.other-contacts{
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+.contact-image {
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+    margin: 5rem 0.7rem;
+}
+
+.linkedin {
+    margin-left: 20px;
+}
 
 
 
@@ -59,6 +74,7 @@ body {
 .portfolio-images {
     margin: 2rem;
     text-align: center;
+    margin-top: 5rem;
 }
 
 
@@ -66,12 +82,19 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
-    /* make the nav bar a collapsed menu, change postion of text--it overlaps 
+    .profile-pic {
+        width: auto;
+    }
+
+    .about-me-content {
+        width: auto;
+    }
+    /* make the nav bar a collapsed menu, change position of text--it overlaps 
     the photo; resize the photo  */
 }
 
 @media screen and (max-width: 768px) {
-    /* make the nav bar a collapsed menu, change postion of text--it overlaps 
+    /* make the nav bar a collapsed menu, change position of text--it overlaps 
     the photo; resize the photo  */
 }
 
