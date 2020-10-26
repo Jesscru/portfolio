@@ -6,24 +6,26 @@ body {
     background-image: url("./images/background-white-elegant-texture.jpg");
 }
 
-.navbar .navbar-brand {
-    color: rgba(0, 0, 0, 1);
-    font-weight: 500;
-}
-
-/* cant get hover to work :( */
-a .nav-link:hover {
-    color: rgb(48, 194, 133);
-}
-
 .navbar {
     background-color:rgba(48, 194, 133, 0.3);
 }
 
+.navbar .navbar-brand {
+    color: rgb(70, 69, 69);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: rgb(14, 170, 105);
+}
 
 .nav-link {
-    color: rgb(85, 85, 85)
+    color: rgb(85, 85, 85);
+    position: relative;
+    left: 55rem;
+    margin: 0 1rem;
 }
+
 
 
 
@@ -40,17 +42,18 @@ a .nav-link:hover {
 
 
 /* for content.html */
+/* header2 does all headers outside of homepage */
+.header2 {
+    color: rgb(48, 194, 133);
+    margin-top: 2rem;
+}
+
 .about-me-content {
     position: relative;
     top: 6.5rem;
     margin-left: 2rem;
 }
 
-/* header2 does all headers outside of homepage */
-.header2 {
-    color: rgb(48, 194, 133);
-    margin-top: 2rem;
-}
 
 
 
@@ -80,3 +83,4 @@ a .nav-link:hover {
 }
 
 
+/* next commit: navbar got hover style to work, changed color of name. */
