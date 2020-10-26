@@ -21,9 +21,7 @@ body {
 
 .nav-link {
     color: rgb(85, 85, 85);
-    position: relative;
-    left: 55rem;
-    margin: 0 1rem;
+    margin: 0 0.7rem;
 }
 
 
@@ -82,5 +80,3 @@ body {
     make the text center aligned or something; it looks weird; resize the photo */
 }
 
-
-/* next commit: navbar got hover style to work, changed color of name. */
