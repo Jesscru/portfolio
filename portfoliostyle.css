@@ -138,9 +138,9 @@ body {
     .profile-pic1 {
         display: none;
     }
-    
+
     .profile-pic2 {
-        display: show;
+        display: inherit;
         display: block;
     }
 
