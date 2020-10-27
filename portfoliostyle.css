@@ -35,14 +35,10 @@ body {
 .about-me {
     display: inline-flex;
 }
-.profile-pic1 {
+.profile-pic {
     border: rgb(85, 85, 85) 0.25rem solid;
     float: left;
     margin: 0 2rem 2rem 2rem;
-}
-
-.profile-pic2 {
-    display: none;
 }
 
 .about-me-text {
@@ -116,7 +112,7 @@ body {
         display: block;
     }
 
-    .profile-pic1 {
+    .profile-pic {
         margin-left: 7rem;
         margin-bottom: 0;
     }
@@ -135,14 +131,11 @@ body {
         height: auto;
     }   
 
-    .profile-pic1 {
-        display: none;
-    }
-
-    .profile-pic2 {
-        display: unset;
+    .profile-pic {
         display: block;
-        border: rgb(85, 85, 85) 0.25rem solid;
+        width: auto;
+        height: auto;
+        margin-left: 2rem;
     }
 
     .about-me-text {
