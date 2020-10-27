@@ -119,6 +119,7 @@ body {
 
     .about-me-text {
         margin-left: 2rem;
+        top: 2rem;
     }
 }
 
@@ -132,8 +133,8 @@ body {
 
     .profile-pic {
         height: auto;
-        width: 100%;
-        margin: 0 0.2rem 0;
+        width: 80%;
+        margin: 0 0.3rem 0;
         display: block;
     }
 
