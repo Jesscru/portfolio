@@ -130,13 +130,14 @@ body {
         height: auto;
     }   
 
-    .about-me {
-        display: block;
-    }
-
     .profile-pic {
         height: 254px;
         width: 231px;
+        display: block;
+    }
+
+    .about-me-text {
+        margin-bottom: 2rem;
     }
 
     .findme {
