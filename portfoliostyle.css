@@ -132,14 +132,15 @@ body {
     }   
 
     .profile-pic {
-        height: auto;
-        width: 80%;
-        margin: 0 0.3rem 0;
+        height: 80%;
+        width: 70%;
+        margin: 0 2rem 0;
         display: block;
     }
 
     .about-me-text {
         margin-bottom: 2rem;
+        top: 0;
     }
 
     .findme {
