@@ -140,7 +140,8 @@ body {
     }
 
     .profile-pic2 {
-        display: initial;
+        display: unset;
+        display: block;
         border: rgb(85, 85, 85) 0.25rem solid;
     }
 
