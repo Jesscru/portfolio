@@ -140,13 +140,14 @@ body {
     }
 
     .profile-pic2 {
-        display: unset;
-        display: block;
+        display: initial;
+        border: rgb(85, 85, 85) 0.25rem solid;
     }
 
     .about-me-text {
         margin-bottom: 2rem;
         top: 0;
+        display: block;
     }
 
     .findme {
