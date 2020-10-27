@@ -133,6 +133,7 @@ body {
     .profile-pic {
         height: 254px;
         width: 231px;
+        margin: 0 0.2rem 0;
         display: block;
     }
 
