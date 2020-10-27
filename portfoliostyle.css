@@ -140,7 +140,7 @@ body {
     }
 
     .profile-pic2 {
-        visibility: visible;
+        display: relative;
         display: block;
     }
 
