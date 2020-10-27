@@ -78,10 +78,9 @@ body {
 
 
 /* for portfolio.html */
-.portfolio-images {
-    margin: 2rem;
+.portfolio-image {
+    margin: 2rem 2rem 2rem 7rem;
     text-align: center;
-    margin-top: 5rem;
 }
 
 
@@ -89,24 +88,23 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
-    .profile-pic {
-        width: auto;
-        margin: 0 2rem 2rem 2rem;
-    }
 
     .about-me-text {
         width: auto;
         flex: wrap;
+        top: 5rem;
     }
 
     .navbar {
         flex-wrap: nowrap;
-        display: inline-flex;
     }
 
     .navbar-nav {
         width: auto;
         height: auto;
+    }
+
+    .portfolio-images {
     }
     /* make the nav bar a collapsed menu, change position of text--it overlaps 
     the photo; resize the photo  */
