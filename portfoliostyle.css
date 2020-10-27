@@ -89,6 +89,7 @@ body {
 
 @media screen and (max-width: 992px) {
 
+/* fix navbar stacking if possible */
     .about-me-text {
         width: auto;
         flex: wrap;
@@ -97,26 +98,52 @@ body {
 
     .navbar {
         flex-wrap: nowrap;
+        width: auto;
     }
 
     .navbar-nav {
-        width: auto;
         height: auto;
     }
 
-    .portfolio-images {
-    }
-    /* make the nav bar a collapsed menu, change position of text--it overlaps 
-    the photo; resize the photo  */
-}
-
 @media screen and (max-width: 768px) {
-    /* make the nav bar a collapsed menu, change position of text--it overlaps 
-    the photo; resize the photo  */
+
+ /* fix navbar stacking if possible */
+    .about-me {
+        display: block;
+    }
+
+    .profile-pic {
+        margin-left: 7rem;
+        margin-bottom: 0;
+    }
+
+    .about-me-text {
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    /* make the nav bar a collapsed menu, change spacing between text and image, 
-    make the text center aligned or something; it looks weird; resize the photo */
-}
 
+ /* fix navbar stacking if possible */
+    .navbar {
+        width: 100%;
+        height: auto;
+    }   
+
+    .about-me {
+        display: block;
+    }
+
+    .findme {
+        font-size: 1.5rem;
+    }
+
+    .contact-image {
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+
+    .portfolio-image {
+        margin: 1rem;
+    }
+}
