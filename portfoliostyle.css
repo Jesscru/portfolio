@@ -133,14 +133,14 @@ body {
 
     .profile-pic {
         display: block;
-        width: auto;
+        width: 300px;
         height: auto;
         margin-left: 2rem;
     }
 
     .about-me-text {
         margin-bottom: 2rem;
-        top: 0;
+        top: 2rem;
         display: block;
     }
 
