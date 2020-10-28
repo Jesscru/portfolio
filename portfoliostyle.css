@@ -15,6 +15,11 @@ body {
     font-weight: 500;
 }
 
+.navbar-nav {
+    position: relative;
+    left: 65%;
+}
+
 .nav-link:hover {
     color: rgb(14, 170, 105);
 }
@@ -98,11 +103,11 @@ body {
 
     .navbar {
         flex-wrap: nowrap;
-        width: auto;
+        width: 100%;
     }
 
     .navbar-nav {
-        height: auto;
+        left: 80%;
     }
 
 @media screen and (max-width: 768px) {
@@ -126,10 +131,14 @@ body {
 @media screen and (max-width: 400px) {
 
  /* fix navbar stacking if possible */
-    .navbar .navbar-expand-lg{
+    .navbar {
         width: 100%;
         height: auto;
     }   
+
+    .navbar-nav {
+        left: 45%;
+    }
 
     .profile-pic {
         display: block;
