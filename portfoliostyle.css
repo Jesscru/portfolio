@@ -39,7 +39,7 @@ body {
 }
 .profile-pic {
     border: rgb(85, 85, 85) 0.1rem solid;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     margin-bottom: 2rem;
 }
 
@@ -153,6 +153,8 @@ body {
 
     .profile-pic {
         position: relative;
+        width: 349.64;
+        height: 384.14;
     }
 
     .about-me-text {
