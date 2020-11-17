@@ -81,13 +81,16 @@ body {
     margin-left: 2rem;
     margin-bottom: 2rem;
     display: block;
+    filter: grayscale(100%);
+}
+
+.portfolio-image:hover {
+    filter: none;
 }
 
 .low-row {
     margin-bottom: 5rem;
 }
-
-
 
 
 /* for contact.html */
@@ -117,7 +120,16 @@ label {
 
 .form-control {
     background-color: rgba(33, 33, 33, 0.559);
+    
 }
+
+.form-control:focus {
+    background-color:rgba(33, 33, 33, 0.559);
+    color: whitesmoke;
+    border-color: whitesmoke;
+    /* cannot get box-shadow to change */
+    box-shadow: whitesmoke;
+  }
 
 #search-button {
     width: 100%;
