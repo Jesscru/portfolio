@@ -20,8 +20,8 @@ body {
 
 .nav-link {
     color: rgb(193, 193, 193);
-    padding: 0;
 }
+
 
 .nav-link:hover, 
 .brand:hover {
@@ -34,7 +34,7 @@ body {
     color: rgb(193, 193, 193);
     font-size: 18px;
     font-weight: 500;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 
 #contact {
@@ -178,8 +178,8 @@ label {
 @media screen and (max-width: 1199px) {
 
     .portfolio-image {
-        width: 90%;
-        margin-left: 3rem;
+        width: 75%;
+        margin-left: 7rem;
      }
  
      .low-row {
@@ -195,8 +195,8 @@ label {
 @media screen and (max-width: 1024px) {
 
   .portfolio-image {
-       width: 90%;
-       margin-left: 3rem;
+       width: 75%;
+       margin-left: 5rem;
     }
 
     .low-row {
@@ -210,15 +210,6 @@ label {
 }
 
 @media screen and (max-width: 992px) {
-    
-    .navbar {
-        flex-wrap: nowrap;
-        width: 100%;
-    }
-
-    .navbar-nav {
-        left: 80%;
-    }
 
     .low-row {
         margin-bottom: 2rem;
