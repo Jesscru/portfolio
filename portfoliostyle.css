@@ -17,18 +17,20 @@ body {
 }
 
 .nav-link {
-    color:  rgb(115, 112, 112);
+    color: rgb(193, 193, 193);
     padding: 0;
 }
 
 .nav-link:hover, 
 .brand:hover {
-    color: rgb(150, 150, 150);
+    color: whitesmoke;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .brand {
-    color: rgb(115, 112, 112);
+    color: rgb(193, 193, 193);
+    font-size: 18px;
     font-weight: 500;
     margin-left: 1.5rem;
 }
@@ -42,18 +44,14 @@ body {
 
 
 /* for index.html */
-/* #black {
-    background-color: rgba(11, 11, 11, 0.504);
-    width: 100%;
-} */
-
 .header {
-    color: rgb(48, 194, 133);
-    margin: 2rem;
+    color: rgb(193, 193, 193);
+    text-align: center;
+    margin-top: 1.5rem;
 }
 .profile-pic {
     height: auto;
-    margin: 1.5rem;
+    margin: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -63,24 +61,47 @@ body {
 
 .about-me-text {
     color: whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1.5rem auto 5rem;
     text-align: center;
 }
 
 
 
-/* for content.html */
-/* header2 does all headers outside of homepage */
+/* for contact.html */
 .header2 {
-    color: rgb(48, 194, 133);
-    margin-top: 2rem;
+    color: rgb(193, 193, 193);
+    text-align: center;
+    margin-top: 1.5rem
+}
+
+.form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    color: rgb(193, 193, 193);
+}
+
+.form-control {
+    background-color: rgba(33, 33, 33, 0.559);
+}
+
+#search-button {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 0.7rem;
 }
 
 .other-contacts{
     text-align: center;
     margin-top: 3rem;
-    color: rgb(85, 85, 85);
+    color: rgb(193, 193, 193);
 }
 
 .contact-image {
@@ -99,8 +120,11 @@ body {
 
 /* for portfolio.html */
 .portfolio-image {
-    margin: 2rem 2rem 2rem 7rem;
-    text-align: center;
+    margin-top: 2rem;
+}
+
+.low-row {
+    margin-bottom: 5rem;
 }
 
 
