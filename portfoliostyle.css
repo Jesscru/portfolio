@@ -4,6 +4,8 @@ body {
     font-weight: 200;
     line-height: 1.5;
     background-image: url("./images/paintbrush-texture.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(2, 2, 2);
     background-size: cover;
     letter-spacing: 0.12rem;
 }
@@ -67,6 +69,27 @@ body {
 
 
 
+
+
+/* for portfolio.html */
+.flex {
+    display: flex;
+}
+
+.portfolio-image {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.low-row {
+    margin-bottom: 5rem;
+}
+
+
+
+
 /* for contact.html */
 .header2 {
     color: rgb(193, 193, 193);
@@ -109,27 +132,15 @@ label {
 .other-contacts{
     text-align: center;
     color: rgb(193, 193, 193);
-}
-
-.border {
-    position: absolute;
-    border-radius: 10%;
-    border: solid rgb(193, 193, 193) 0.2rem;
-    background-color: transparent;
-    height: 18rem;
-    width: 18rem;
-    margin-left: 12.5rem;
-    z-index: 1;
+    margin-bottom: 5rem;
 }
 
 .email-icon {
-    border-radius: 1.65rem;
+    border-radius: 2.25rem;
     background-color: rgb(193, 193, 193);
     position: absolute;
-    margin-left: 0.8rem;
-    margin-top: 1rem;
+    margin-left: 4.7rem;
     cursor: pointer;
-    z-index: 5;
 }
 
 .contact-image {
@@ -137,8 +148,8 @@ label {
     text-decoration: none;
     border-radius: 0.7rem;
     margin-right: 1rem;
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     cursor: pointer;
 }
 
@@ -148,38 +159,46 @@ label {
 
 
 
-/* for portfolio.html */
-.portfolio-image {
-    margin-top: 2rem;
-}
-
-.low-row {
-    margin-bottom: 5rem;
-}
-
 
 
 /* MEDIA QUERIES */
 
-/* @media screen and (max-width: 1024px) {
-    .about-me-text {
-        flex: wrap;
-        margin-left: 125px;
+@media screen and (max-width: 1199px) {
+
+    .portfolio-image {
+        width: 90%;
+        margin-left: 3rem;
+     }
+ 
+     .low-row {
+         margin-bottom: 2rem;
+     }
+
+     .email-icon {
+        margin-left: 2.5rem;
+     }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .portfolio-image {
+       width: 90%;
+       margin-left: 3rem;
     }
 
+    .low-row {
+        margin-bottom: 2rem;
+    }
+
+    .email-icon {
+        margin-left: 1rem;
+     }
+
+}
 
 @media screen and (max-width: 992px) {
-
-    .profile-pic {
-        position: relative;
-    }
-
-    .about-me-text {
-        position: absolute;
-        top: 435px;
-        left: -450px;
-    }
-
+    
     .navbar {
         flex-wrap: nowrap;
         width: 100%;
@@ -188,71 +207,65 @@ label {
     .navbar-nav {
         left: 80%;
     }
+
+    .low-row {
+        margin-bottom: 2rem;
+    }
+
+    .email-icon {
+        margin-left: 0.3rem;
+     }
+
 }
 
 @media screen and (max-width: 768px) {
 
-
-
-    .profile-pic {
-        position: relative;
+    .portfolio-image {
+        margin-left: 6rem;
     }
 
-    .about-me-text {
-        position: absolute;
-        top: 335px;
-        left: -325px;
-    }
+    .email-icon {
+        margin-left: -2rem;
+     }
+
 }
 
-@media screen and (max-width: 576px) {
-
-    .profile-pic {
-        position: relative;
-    }
-
-    .about-me-text {
-        position: absolute;
-        top: -85px;
-        left: -75px;
-    }
-}
-
-
-@media screen and (max-width: 400px) {
-
-    .profile-pic {
-        position: relative;
-        width: 349.64;
-        height: 384.14;
-    }
-
-    .about-me-text {
-        position: absolute;
-        top: -105px;
-        left: -55px;
-    }
-} */
-
-    /* .navbar {
-        width: 100%;
-        height: auto;
-    }   
-
-    .navbar-nav {
-        left: 45%;
-    }
-
-    .findme {
-        font-size: 1rem;
-    }
-
-    .contact-image {
-        width: 3rem;
-        height: 3rem;
-    }
+@media screen and (max-width: 540px) {
 
     .portfolio-image {
-        margin: 1rem;
+        width: 90%;
+        margin-left: 2rem;
     }
-} */
+
+    .email-icon {
+        left: 29%;
+     }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    
+    .portfolio-image {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .email-icon {
+        left: 25%;
+     }
+ 
+} 
+
+@media screen and (max-width: 375px) {
+
+
+    .email-icon {
+        left: 23%;
+     }
+
+     .name-links {
+        padding: 0 0.5rem;
+     }
+
+}
