@@ -74,10 +74,18 @@ body {
     margin-top: 1.5rem
 }
 
+.find-me {
+    text-align: center;
+    color: rgb(193, 193, 193);
+    margin: 2rem;
+}
+
 .form {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    visibility: hidden;
 }
 
 label {
@@ -100,15 +108,26 @@ label {
 
 .other-contacts{
     text-align: center;
-    margin-top: 3rem;
     color: rgb(193, 193, 193);
+    margin: 2rem;
+}
+
+.email-icon {
+    border-radius: 1.65rem;
+    background-color: rgb(193, 193, 193);
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    cursor: pointer;
 }
 
 .contact-image {
-    width: 5rem;
-    height: 5rem;
-    padding: 10px;
-    margin: 2rem 0.7rem;
+    background-color: rgb(193, 193, 193);
+    text-decoration: none;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
 }
 
