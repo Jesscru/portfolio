@@ -109,16 +109,27 @@ label {
 .other-contacts{
     text-align: center;
     color: rgb(193, 193, 193);
-    margin: 2rem;
+}
+
+.border {
+    position: absolute;
+    border-radius: 10%;
+    border: solid rgb(193, 193, 193) 0.2rem;
+    background-color: transparent;
+    height: 18rem;
+    width: 18rem;
+    margin-left: 12.5rem;
+    z-index: 1;
 }
 
 .email-icon {
     border-radius: 1.65rem;
     background-color: rgb(193, 193, 193);
     position: absolute;
-    margin-left: 6rem;
-    margin-top: 2rem;
+    margin-left: 0.8rem;
+    margin-top: 1rem;
     cursor: pointer;
+    z-index: 5;
 }
 
 .contact-image {
