@@ -1,54 +1,71 @@
 /* all pages */
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 200;
     line-height: 1.5;
-    background-image: url("./images/whitetexture.jpeg");
+    background-image: url("./images/paintbrush-texture.jpg");
+    background-size: cover;
+    letter-spacing: 0.12rem;
 }
 
-.navbar {
-    background-color:rgba(48, 194, 133, 0.3);
-}
-
-.navbar .navbar-brand {
-    color: rgb(70, 69, 69);
-    font-weight: 500;
+.navbar-expand-lg {
+    margin-top: 1.5rem;
 }
 
 .navbar-nav {
-    position: relative;
-    left: 75%;
-}
-
-.nav-link:hover {
-    color: rgb(14, 170, 105);
+    float: right;
 }
 
 .nav-link {
-    color: rgb(85, 85, 85);
-    margin: 0 0.7rem;
+    color:  rgb(115, 112, 112);
+    padding: 0;
 }
+
+.nav-link:hover, 
+.brand:hover {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.brand {
+    color: rgb(115, 112, 112);
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+#contact {
+    margin-right: 1.5rem;
+}
+
 
 
 
 
 /* for index.html */
+/* #black {
+    background-color: rgba(11, 11, 11, 0.504);
+    width: 100%;
+} */
+
 .header {
     color: rgb(48, 194, 133);
     margin: 2rem;
 }
 .profile-pic {
-    border: rgb(85, 85, 85) 0.1rem solid;
-    /* margin-left: 2rem; */
-    margin-bottom: 2rem;
+    height: auto;
+    margin: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    width: 50%
 }
 
 .about-me-text {
-    margin-left: 50px;
-}
-
-.empty {
-    margin: 50px;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
@@ -90,7 +107,7 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .about-me-text {
         flex: wrap;
         margin-left: 125px;
@@ -99,7 +116,6 @@ body {
 
 @media screen and (max-width: 992px) {
 
-/* fix navbar stacking if possible */
     .profile-pic {
         position: relative;
     }
@@ -109,7 +125,7 @@ body {
         top: 435px;
         left: -450px;
     }
-/* 
+
     .navbar {
         flex-wrap: nowrap;
         width: 100%;
@@ -117,12 +133,12 @@ body {
 
     .navbar-nav {
         left: 80%;
-    } */
+    }
 }
 
 @media screen and (max-width: 768px) {
 
- /* fix navbar stacking if possible */
+
 
     .profile-pic {
         position: relative;
@@ -162,9 +178,8 @@ body {
         top: -105px;
         left: -55px;
     }
-}
+} */
 
- /* fix navbar stacking if possible */
     /* .navbar {
         width: 100%;
         height: auto;
