@@ -103,7 +103,8 @@ body {
 .find-me {
     text-align: center;
     color: rgb(193, 193, 193);
-    margin: 2rem;
+    padding-top: 5rem;
+    padding-right: 1.5rem;
 }
 
 .form {
@@ -123,12 +124,16 @@ label {
     
 }
 
-.form-control:focus {
+input.form-control:focus {
     background-color:rgba(33, 33, 33, 0.559);
     color: whitesmoke;
-    border-color: whitesmoke;
-    /* cannot get box-shadow to change */
-    box-shadow: whitesmoke;
+    border-color: whitesmoke !important;
+    box-shadow: whitesmoke !important;
+    box-shadow: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   -moz-transition: none;
+   -webkit-transition: none;
   }
 
 #search-button {
@@ -148,13 +153,19 @@ label {
 }
 
 .email-icon {
-    border-radius: 2.25rem;
-    background-color: rgb(193, 193, 193);
-    position: absolute;
-    margin-left: 4.7rem;
+    width: 50%;
     cursor: pointer;
+    margin-left: 4rem;
+    position: absolute;
 }
 
+.message-icon {
+    width: 50%;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    position: absolute;
+}
 .contact-image {
     background-color: rgb(193, 193, 193);
     text-decoration: none;

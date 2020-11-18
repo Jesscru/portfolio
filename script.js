@@ -1,13 +1,16 @@
 $( document ).ready(function() {
+var messageIcon = $('.message-icon');
 var emailIcon = $('.email-icon');
 var form = $('.form');
-var border = $('.border');
+var contactLabels = $('.find-me');
 
 
-    emailIcon.on('click', function(){
+    messageIcon.on('click', function(){
         form.css('visibility', 'visible');
+        messageIcon.css('visibility', 'hidden');
         emailIcon.css('visibility', 'hidden');
-        border.css('visibility', 'hidden');
+        emailIcon.css('visibility', 'hidden');
+        contactLabels.css('visibility', 'hidden');
     })
 
 
