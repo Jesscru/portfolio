@@ -94,6 +94,28 @@ body {
     color: whitesmoke;
 }
 
+.download-or-visit{ 
+    text-align: center;
+    color: rgb(193, 193, 193);
+    margin-bottom: 5rem;
+}
+
+.download-resume {
+    width: 8.155%;
+    filter: grayscale(50%);
+}
+
+.contact-image {
+    background-color: rgb(193, 193, 193);
+    text-decoration: none;
+    border-radius: 0.7rem;
+    margin-right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -173,12 +195,6 @@ input.form-control:focus {
     border-radius: 0.7rem;
 }
 
-.other-contacts{
-    text-align: center;
-    color: rgb(193, 193, 193);
-    margin-bottom: 5rem;
-}
-
 .email-icon {
     width: 50%;
     cursor: pointer;
@@ -193,19 +209,8 @@ input.form-control:focus {
     margin-top: 1rem;
     position: absolute;
 }
-.contact-image {
-    background-color: rgb(193, 193, 193);
-    text-decoration: none;
-    border-radius: 0.7rem;
-    margin-right: 1rem;
-    width: 3.5rem;
-    height: 3.5rem;
-    cursor: pointer;
-}
 
-.linkedin {
-    margin-left: 20px;
-}
+
 
 
 
