@@ -4,14 +4,11 @@ I made this portfolio to compile and showcase my accomplishments to whomever may
 
 ## Image Credits:
 
-* background image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwhite-texture&psig=AOvVaw1VDT5-ghedxiq7msWdq6dt&ust=1603830420605000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCEoYaM0-wCFQAAAAAdAAAAABAI 
+* background image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcutewallpaper.org%2F21%2Fblack-texture-background-hd%2Fview-page-21.html&psig=AOvVaw3BxV8YF4f-mKZW8NWuVNt3&ust=1605849527829000&source=images&cd=vfe&ved=0CAMQjB1qFwoTCNiZ9O7tje0CFQAAAAAdAAAAABAX
 
-* placedholder image: https://www.google.com/url?sa=i&url=http%3A%2F%2Flacasanelverde.it%2Fblog%2F16-blog-images&psig=AOvVaw0dblPBfpigsugne1nTLNs0&ust=1603830615983000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjvseOM0-wCFQAAAAAdAAAAABAD
+* placedholder image: https://dummyimage.com/500x350
 
-* Github logo image: https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fgithub-logo%2F&psig=AOvVaw0RInrhxF-17VTcjdWAmtQi&ust=1603830695727000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjG5quN0-wCFQAAAAAdAAAAABAD
+* Download, Message, and Email icons: https://www.iconfinder.com/stefantaubert
 
-* Stack Overflow image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconsdb.com%2Fblack-icons%2Fstackoverflow-3-icon.html&psig=AOvVaw0Qbq_gIIG1i58rUAdfY2fI&ust=1603830721496000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjks8qN0-wCFQAAAAAdAAAAABAD
-
-* LinkedIn image: https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Ficon%2Flinkedin%2F59873&psig=AOvVaw0gr8sFRrMGm2hBaCPIz16W&ust=1603830871188000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICk-NyN0-wCFQAAAAAdAAAAABAD
-
+* LinkedIn, Github icons: https://www.iconfinder.com/GlumPix
 
