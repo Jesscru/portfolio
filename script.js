@@ -51,7 +51,9 @@ const resumeInfo = {
     $("#experience").mouseover(function() {
         let newPar = $('<p class="populated-experience">')
         newPar.html(`Reasearch assistant: ${resumeInfo.workExperience["Peace Corps"]}
+
         Restaurant manager: ${resumeInfo.workExperience["Restaurant manager"]}
+
         U of Miss Tutor: ${resumeInfo.workExperience["U of Miss Tutor"]}`)
         populateInfo.append(newPar);
     })
@@ -59,9 +61,13 @@ const resumeInfo = {
     $("#education").mouseover(function() {
         let newPar = $('<p class="populated-education">')
         newPar.html(`${resumeInfo.education.university}
+        \n
         ${resumeInfo.education.years}
+        \n
         Major: ${resumeInfo.education.major}
+        \n
         Minors: ${resumeInfo.education.minors}
+        \n
         GPA: ${resumeInfo.education.GPA}`)
         populateInfo.append(newPar);
     })

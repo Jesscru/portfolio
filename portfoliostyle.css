@@ -1,9 +1,9 @@
 /* all pages */
 body {
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Spartan', sans-serif !important;
     font-weight: 200;
     line-height: 1.5;
-    background-image: url("./images/paintbrush-texture.jpg");
+    background-image: url("./assets/images/paintbrush-texture.jpg");
     background-repeat: no-repeat;
     background-color: rgb(2, 2, 2);
     background-size: cover;
@@ -98,6 +98,8 @@ body {
     text-align: center;
     color: rgb(193, 193, 193);
     margin-bottom: 5rem;
+    bottom: 0;
+    left: 35%;
 }
 
 .download-resume {
@@ -152,8 +154,8 @@ body {
 .find-me {
     text-align: center;
     color: rgb(193, 193, 193);
-    padding-top: 5rem;
     padding-right: 1.5rem;
+    padding-top: 18rem;
 }
 
 .form {
@@ -200,14 +202,15 @@ input.form-control:focus {
     cursor: pointer;
     margin-left: 4rem;
     position: absolute;
+    top: 6rem;
 }
 
 .message-icon {
     width: 50%;
     cursor: pointer;
     margin-left: 4rem;
-    margin-top: 1rem;
     position: absolute;
+    top: 7rem;
 }
 
 
