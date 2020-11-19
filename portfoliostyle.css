@@ -22,7 +22,6 @@ body {
     color: rgb(193, 193, 193);
 }
 
-
 .nav-link:hover, 
 .brand:hover {
     color: whitesmoke;
@@ -68,6 +67,10 @@ body {
 }
 
 
+
+
+
+
 /* for resume.html */
 .resume-section {
     color: rgb(193, 193, 193);
@@ -85,7 +88,6 @@ body {
 
 #black-box {
     background-color: rgba(6, 6, 6, 0.504);
-    /* height: 12rem; */
     text-align: center;
     vertical-align: middle
 }
@@ -123,6 +125,12 @@ body {
 
 
 /* for portfolio.html */
+#instructions {
+    color: rgb(113, 113, 113);
+    text-align: center;
+}
+
+
 .flex {
     display: flex;
 }
@@ -139,9 +147,24 @@ body {
     filter: none;
 }
 
+.repo-link {
+    color: rgb(113, 113, 113);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.repo-link:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .low-row {
     margin-bottom: 5rem;
 }
+
+
+
 
 
 /* for contact.html */
@@ -153,7 +176,7 @@ body {
 
 .find-me {
     text-align: center;
-    color: rgb(193, 193, 193);
+    color: rgb(113, 113, 113);
     padding-right: 1.5rem;
     padding-top: 18rem;
 }
