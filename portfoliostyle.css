@@ -14,12 +14,17 @@ body {
     margin-top: 1.5rem;
 }
 
-.navbar-nav {
+.all-pages {
     float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .nav-link {
     color: rgb(193, 193, 193);
+    font-size: 14px;
+    padding: 0.3rem 1rem;
 }
 
 .nav-link:hover, 
@@ -34,10 +39,19 @@ body {
     font-size: 24px;
     font-weight: 500;
     margin-left: 1rem;
+ 
 }
 
 #contact {
     margin-right: 1.5rem;
+}
+
+.email-and-phone {
+    color: whitesmoke;
+    /* margin: 1rem 0 0 3rem; */
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
 }
 
 
@@ -74,7 +88,7 @@ body {
 /* for resume.html */
 .resume-section {
     color: rgb(193, 193, 193);
-    padding-top: 8rem;
+    margin-top: 8rem;
     font-size: 24px;
 }
 
@@ -106,6 +120,7 @@ body {
 
 .download-resume {
     width: 8.155%;
+    margin-right: 1.8rem;
     filter: grayscale(50%);
 }
 

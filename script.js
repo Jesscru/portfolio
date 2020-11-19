@@ -5,6 +5,7 @@ const emailIcon = $('.email-icon');
 const form = $('.form');
 const contactLabels = $('.find-me');
 const populateInfo = $('.populate-info');
+const contactInfo = $('.email-and-phone');
 
 
 
@@ -41,25 +42,26 @@ const resumeInfo = {
         minors: 'Spanish, chemistry, biology',
         GPA: 3.74
     }
-}
+};
+
     $("#skills").mouseover(function() {
-        let newPar = $('<p class="populated-skills">')
-        newPar.html(`${resumeInfo.skills.general}`)
+        let newPar = $('<p class="populated-skills">');
+        newPar.html(`${resumeInfo.skills.general}`);
         populateInfo.append(newPar);
     })
 
     $("#experience").mouseover(function() {
-        let newPar = $('<p class="populated-experience">')
+        let newPar = $('<p class="populated-experience">');
         newPar.html(`Reasearch assistant: ${resumeInfo.workExperience["Peace Corps"]}
 
         Restaurant manager: ${resumeInfo.workExperience["Restaurant manager"]}
 
-        U of Miss Tutor: ${resumeInfo.workExperience["U of Miss Tutor"]}`)
+        U of Miss Tutor: ${resumeInfo.workExperience["U of Miss Tutor"]}`);
         populateInfo.append(newPar);
     })
 
     $("#education").mouseover(function() {
-        let newPar = $('<p class="populated-education">')
+        let newPar = $('<p class="populated-education">');
         newPar.html(`${resumeInfo.education.university}
         \n
         ${resumeInfo.education.years}
@@ -68,7 +70,33 @@ const resumeInfo = {
         \n
         Minors: ${resumeInfo.education.minors}
         \n
-        GPA: ${resumeInfo.education.GPA}`)
+        GPA: ${resumeInfo.education.GPA}`);
         populateInfo.append(newPar);
     })
+
+    $(".brand").mouseover(function() {
+        let email = $('<p>');
+        let phone = $('<p>');
+        phone.html('(601) 668-9467');
+        email.html('jessicacrump7@gmail.com');
+        contactInfo.append(phone);
+        contactInfo.append(email);
+    })
+
+$("#skills").mouseleave(function(){
+    populateInfo.empty();
+})
+
+$("#experience").mouseleave(function(){
+        populateInfo.empty();
+    })
+
+$("#education").mouseleave(function(){
+    populateInfo.empty();
+})
+
+$(".brand").mouseleave(function(){
+    contactInfo.empty();
+})
+
 })
