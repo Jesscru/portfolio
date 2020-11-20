@@ -1,6 +1,6 @@
 # Jessica's Portfolio 
 
-This portfolio serves to compile and showcase my professional abilities. It is a place to learn a bit about me, view some of my strengths, and contact me in a number of places. It is kept up to do date with my latest work as learn more and grow! 
+This portfolio serves to compile and showcase my professional abilities. It is a place to learn a bit about me, view some of my strengths, and contact me in a number of places. It is kept up to do date with my latest work as learn more and grow! The site can be accessed here: https://jesscru.github.io/portfolio/.
     
 
 ## Image Credits:
