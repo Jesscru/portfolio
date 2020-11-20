@@ -2,6 +2,19 @@
 
 This portfolio serves to compile and showcase my professional abilities. It is a place to learn a bit about me, view some of my strengths, and contact me in a number of places. It is kept up to do date with my latest work as learn more and grow! The site can be accessed here: https://jesscru.github.io/portfolio/.
     
+Below is what the viewer will see upon visiting each tab of the site. 
+
+### Home Tab
+![homepage screen shot](./assets/images/portfolio-homepage-screenshot.png)
+
+### Resume Tab
+![resume page screen shot](./assets/images/resume-page-screenshot.png)
+
+### Portfolio Tab
+![portfolio page screen shot](./assets/images/portfolio-page-screenshot.png)
+
+### Contact Tab
+![contact page screen shot](./assets/images/contact-page-screenshot.png)
 
 ## Image Credits:
 
