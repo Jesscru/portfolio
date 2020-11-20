@@ -3,7 +3,7 @@ $( document ).ready(function() {
 const messageIcon = $('.message-icon');
 const emailIcon = $('.email-icon');
 const form = $('.form');
-const contactLabels = $('.find-me');
+const contactLabels = $('.contact');
 const populateInfo = $('.populate-info');
 const contactInfo = $('.email-and-phone');
 
@@ -45,13 +45,13 @@ const resumeInfo = {
 };
 
     $("#skills").mouseover(function() {
-        let newPar = $('<p class="populated-skills">');
+        let newPar = $('<p>');
         newPar.html(`${resumeInfo.skills.general}`);
         populateInfo.append(newPar);
     })
 
     $("#experience").mouseover(function() {
-        let newPar = $('<p class="populated-experience">');
+        let newPar = $('<p>');
         newPar.html(`Reasearch assistant: ${resumeInfo.workExperience["Peace Corps"]}
 
         Restaurant manager: ${resumeInfo.workExperience["Restaurant manager"]}
@@ -61,7 +61,7 @@ const resumeInfo = {
     })
 
     $("#education").mouseover(function() {
-        let newPar = $('<p class="populated-education">');
+        let newPar = $('<p>');
         newPar.html(`${resumeInfo.education.university}
         \n
         ${resumeInfo.education.years}

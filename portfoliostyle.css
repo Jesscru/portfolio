@@ -6,7 +6,7 @@ body {
     background-image: url("./assets/images/abstract-black-background.jpg");
     background-repeat: no-repeat;
     background-color: rgb(2, 2, 2);
-    background-size: cover;
+    background-size: auto;
     letter-spacing: 0.12rem;
 }
 
@@ -103,7 +103,8 @@ body {
 #black-box {
     background-color: rgba(6, 6, 6, 0.504);
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
+    margin-top: 3rem;
 }
 
 .populate-info {
@@ -113,25 +114,46 @@ body {
 .download-or-visit{ 
     text-align: center;
     color: rgb(193, 193, 193);
-    margin-bottom: 5rem;
+}
+
+.find-me {
+    color: rgb(113, 113, 113);
     bottom: 0;
-    left: 35%;
+    float: left;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+.find-me:hover {
+    text-decoration: none;
 }
 
 .download-resume {
-    width: 8.155%;
-    margin-right: 1.8rem;
+    width: 10%;
     filter: grayscale(50%);
+}
+
+.social {
+    float: right;
+}
+
+.contact-image:hover {
+    text-decoration: none;
 }
 
 .contact-image {
     background-color: rgb(193, 193, 193);
-    text-decoration: none;
     border-radius: 0.7rem;
-    margin-right: 1rem;
     width: 3.5rem;
     height: 3.5rem;
     cursor: pointer;
+    display: inline;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
 }
 
 
@@ -189,13 +211,6 @@ body {
     margin-top: 1.5rem
 }
 
-.find-me {
-    text-align: center;
-    color: rgb(113, 113, 113);
-    padding-right: 1.5rem;
-    padding-top: 18rem;
-}
-
 .form {
     width: 50%;
     margin-left: auto;
@@ -233,6 +248,12 @@ input.form-control:focus {
     color: black;
     background-color: whitesmoke;
     border-radius: 0.7rem;
+}
+
+.contact {
+    color: rgb(113, 113, 113);
+    text-align: center;
+    margin-top: 5rem;
 }
 
 .email-icon {
