@@ -97,7 +97,7 @@ body {
 }
 
 #education {
-    margin-left: 4porem;
+    margin-left: 4rem;
 }
 
 #black-box {
@@ -295,15 +295,23 @@ input.form-control:focus {
     .portfolio-image {
         width: 75%;
         margin-left: 7rem;
-     }
+    }
  
-     .low-row {
-         margin-bottom: 2rem;
-     }
+    .low-row {
+        margin-bottom: 2rem;
+    }
 
      .email-icon {
         margin-left: 2.5rem;
-     }
+    }
+
+    #email-me {
+        margin-right: 5rem;
+    }
+
+    #message-me {
+        margin-left: 3rem;
+    }
 
 }
 
@@ -311,7 +319,7 @@ input.form-control:focus {
 
   .portfolio-image {
        width: 75%;
-       margin-left: 5rem;
+       margin-left: 7rem;
     }
 
     .low-row {
@@ -320,10 +328,6 @@ input.form-control:focus {
 
     .email-icon {
         margin-left: 1rem;
-     }
-
-     #education {
-        margin-left: 3rem;
     }
 
 }
@@ -338,17 +342,6 @@ input.form-control:focus {
         margin-left: 0.3rem;
     }
 
-
-     #education {
-        margin-left: 6rem;
-    }
-
-     .resume-section {
-        color: rgb(193, 193, 193);
-        margin-top: 4rem;
-        font-size: 24px;
-    }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -357,48 +350,235 @@ input.form-control:focus {
         margin-left: 6rem;
     }
 
-    .email-icon {
-        margin-left: -2rem;
-     }
+    .email-icon, 
+    .message-icon {
+        padding-top: 2rem;
+        width: 60%;
+    }
+
+    #email-me {
+        margin-right: 2.5rem;
+    }
+
+    #message-me {
+        margin-left: 4.5rem;
+        margin-right: 0;
+        margin-top: 6rem;
+    }
 
 }
 
+@media screen and (max-width: 575px) {
+
+    .profile-pic {
+        margin: 0;
+        padding-top: 5rem;
+    }
+
+    #black-box {
+        margin-top: 1.5rem;
+    }
+
+    #skills {
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }   
+
+    #experience, 
+    #education {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }   
+
+    #footer {
+        top: 100%;
+    }
+
+    .download {
+        margin-left: 7rem;
+    }
+
+    .social {
+        margin-top: 1rem;
+        margin-right: 4rem;
+    }
+
+    .email-icon, 
+    .message-icon {
+        width: 40%;
+    }
+
+    .message-icon {
+        padding-top: 10rem;
+        margin-left: 9rem;
+    }
+
+    #email-me {
+        margin-right: 2rem;
+    }
+
+    #message-me {
+        padding-top: 10rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6rem;
+    }
+
+    /* .form {
+        margin-top: 3rem;
+    } */
+}
+
 @media screen and (max-width: 540px) {
+    .nav-link {
+        padding-right: 1.5rem;
+    }
+
+    .header {
+        margin-top: 6.5rem;
+    }
 
     .portfolio-image {
         width: 90%;
         margin-left: 2rem;
     }
 
-    .email-icon {
-        left: 29%;
-     }
+    .message-icon {
+        padding-top: 10rem;
+        margin-left: 9.5rem;
+    }
 
+    .email-icon {
+        left: 10rem;
+    }
+
+    .download {
+        margin-left: 5rem;
+    }
 }
 
 
 @media screen and (max-width: 414px) {
+
+    .nav-link {
+        padding-right: 1.5rem;
+    }
     
     .portfolio-image {
         width: 90%;
+        margin-left: 1.5rem;
+    }
+
+    #footer {
+        top: 100%;
+    }
+
+    .social {
+        margin-top: 1rem;
+        margin-left: 7rem;
+    }
+
+    .download {
+        margin-left: 0.7rem;
+    }
+
+    .contact-image {
+        margin: 1rem 0;
+    }
+
+    #email-me {
+        margin-right: 0.8rem;
+    }
+
+    .message-icon {
+        padding-top: 10rem;
+        margin-left: 7.5rem;
+    }
+
+    .email-icon {
+        left: 8rem;
+    }
+}
+ 
+
+
+@media screen and (max-width: 375px) {
+
+    .email-icon {
+        left: 23%;
+    }
+
+    .name-links {
+        padding: 0 0.5rem;
+    }
+
+    .download {
+        margin-left: -1rem;
+    }
+
+    .social {
+        margin-left: 5.5rem;
+        padding-right: 3rem;
+    }
+
+    .contact-image {
+        margin: 1rem 0;
+    }
+
+    #email-me {
+        margin-left: 1.5em;
+    }
+
+    #message-me {
         margin-left: 1rem;
     }
 
     .email-icon {
-        left: 25%;
-     }
- 
-} 
+        left: 7.5rem;
+    }
 
-@media screen and (max-width: 375px) {
-
-
-    .email-icon {
-        left: 23%;
-     }
-
-     .name-links {
-        padding: 0 0.5rem;
-     }
+    .message-icon {
+        margin-left: 6.5rem;
+    }
 
 }
+
+@media screen and (max-width: 360px) {
+
+    .download {
+        margin-left: 1rem;
+        padding-top: 16rem;
+    }
+
+    .social {
+        margin-left: 6.5rem;
+        padding-right: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .social {
+        margin-left: 5rem;
+        padding-right: 0;
+    }
+
+    #email-me {
+        margin-left: 0.5em;
+    }
+
+    #message-me {
+        margin-left: 0;
+    }
+
+    .email-icon {
+        left: 6.5rem;
+    }
+
+    .message-icon {
+        margin-left: 5.5rem;
+    }
+}
+
