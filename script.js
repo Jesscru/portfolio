@@ -19,7 +19,7 @@ const contactInfo = $('.email-and-phone');
 
 const resumeInfo = {
     skills: {
-        general: ['web development', 'attentive to detail', 'customer service', 'team collaboration', 'teaching and training', 'malleable and adaptable', 'handling confidential information', 'conversational in Spanish'],
+        general: ['Web development',  'Team collaboration', 'Teaching and training', 'Attentive to detail', 'Malleable and adaptable'],
         codingSpecific: ['HTML', 'CSS', 'Javascript']
     },
 
@@ -45,34 +45,71 @@ const resumeInfo = {
 };
 
     $("#skills").mouseover(function() {
-        let newPar = $('<p>');
-        newPar.html(`${resumeInfo.skills.general}`);
-        populateInfo.append(newPar);
+        
+        for (i = 0; i < resumeInfo.skills.general.length; i++) {
+            let newList = $('<ul>');
+            let newListItem = $('<li>');
+            newListItem.html(`${resumeInfo.skills.general[i]}`);
+            newList.append(newListItem);
+            populateInfo.append(newList);
+           
+        }
+        
     })
 
     $("#experience").mouseover(function() {
-        let newPar = $('<p>');
-        newPar.html(`Reasearch assistant: ${resumeInfo.workExperience["Peace Corps"]}
-
-        Restaurant manager: ${resumeInfo.workExperience["Restaurant manager"]}
-
-        U of Miss Tutor: ${resumeInfo.workExperience["U of Miss Tutor"]}`);
-        populateInfo.append(newPar);
+        let newList = $('<ul>');
+        let newListItem1 = $('<li>');
+        let newListItem2 = $('<li>');
+        let newListItem3 = $('<li>');
+        newListItem1.html(`Reasearch assistant: ${resumeInfo.workExperience["Peace Corps"]}`);
+        newListItem2.html(`Restaurant manager: ${resumeInfo.workExperience["Restaurant manager"]}`)
+        newListItem3.html(`U of Miss Tutor: ${resumeInfo.workExperience["U of Miss Tutor"]}`);
+        newList.append(newListItem1);
+        newList.append(newListItem2);
+        newList.append(newListItem3);
+        populateInfo.append(newList);
     })
 
     $("#education").mouseover(function() {
-        let newPar = $('<p>');
-        newPar.html(`${resumeInfo.education.university}
-        \n
-        ${resumeInfo.education.years}
-        \n
-        Major: ${resumeInfo.education.major}
-        \n
-        Minors: ${resumeInfo.education.minors}
-        \n
-        GPA: ${resumeInfo.education.GPA}`);
-        populateInfo.append(newPar);
+        const {university, years, major, minors, GPA} = resumeInfo.education;
+        let newList = $('<ul>');
+        let newListItem1 = $('<li>');
+        let newListItem2 = $('<li>');
+        let newListItem3 = $('<li>');
+        let newListItem4 = $('<li>');
+        let newListItem5 = $('<li>');
+
+        newListItem1.html(`${university}`);
+
+        newListItem2.html(`${years}`);
+    
+        newListItem3.html(`Major: ${major}`);
+    
+        newListItem4.html(`Minors: ${minors}`);
+
+        newListItem5.html(`GPA: ${GPA}`);
+        newList.append(newListItem1);
+        newList.append(newListItem2);
+        newList.append(newListItem3);
+        newList.append(newListItem4);
+        newList.append(newListItem5);
+        populateInfo.append(newList);
     })
+
+    // $("#education").mouseover(function() {
+    //     let newPar = $('<p>');
+    //     newPar.html(`${resumeInfo.education.university}
+
+    //     ${resumeInfo.education.years}
+    
+    //     Major: ${resumeInfo.education.major}
+    
+    //     Minors: ${resumeInfo.education.minors}
+
+    //     GPA: ${resumeInfo.education.GPA}`);
+    //     populateInfo.append(newPar);
+    // })
 
     $(".brand").mouseover(function() {
         let email = $('<p>');
