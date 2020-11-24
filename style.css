@@ -370,10 +370,10 @@ input.form-control:focus {
 
 @media screen and (max-width: 575px) {
 
-    .profile-pic {
+    /* .profile-pic {
         margin: 0;
         padding-top: 5rem;
-    }
+    } */
 
     #black-box {
         margin-top: 1.5rem;
