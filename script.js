@@ -117,7 +117,7 @@ const resumeInfo = {
         phone.html('(601) 668-9467');
         email.html('jessicacrump7@gmail.com');
         contactInfo.append(phone);
-        contactInfo.append(email);
+        phone.append(email);
     })
 
 $("#skills").mouseleave(function(){

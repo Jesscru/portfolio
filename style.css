@@ -10,21 +10,25 @@ body {
     letter-spacing: 0.12rem;
 }
 
-.navbar-expand-lg {
-    margin-top: 1.5rem;
+.brand {
+    color: rgb(193, 193, 193);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
 }
 
-.all-pages {
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
+.email-and-phone {
+    color: whitesmoke;
+    line-height: 3;
+    margin-left: 5px;
 }
 
 .nav-link {
     color: rgb(193, 193, 193);
-    font-size: 14px;
-    padding: 0.3rem 1rem;
+    margin-left: 1.5rem;
+    line-height: 8;
+    font-size: 18px;
 }
 
 .nav-link:hover, 
@@ -34,25 +38,6 @@ body {
     font-weight: 400;
 }
 
-.brand {
-    color: rgb(193, 193, 193);
-    font-size: 24px;
-    font-weight: 500;
-    margin-left: 1rem;
- 
-}
-
-#contact {
-    margin-right: 1.5rem;
-}
-
-.email-and-phone {
-    color: whitesmoke;
-    /* margin: 1rem 0 0 3rem; */
-    position: absolute;
-    left: 3rem;
-    top: 3rem;
-}
 
 
 
@@ -64,19 +49,18 @@ body {
     text-align: center;
     margin-top: 1.5rem;
 }
+
 .profile-pic {
-    height: auto;
-    margin: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block;
-    width: 50%
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-left: 8rem;
+    margin-top: 3rem;
 }
 
 .about-me-text {
     color: whitesmoke;
-    margin: 1.5rem auto 5rem;
+    margin: 3rem;
     text-align: center;
 }
 
