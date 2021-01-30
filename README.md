@@ -47,6 +47,8 @@ Icons used on the Contact page were found on [IconFinder](https://www.iconfinder
 
 * Placeholder image: https://dummyimage.com/500x350
 
+The page is hosted by Github Pages. 
+
 ## License 
 
 This project has an MIT license.
