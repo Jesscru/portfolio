@@ -33,7 +33,7 @@ Below is what the viewer will see upon visiting each tab of the site.
 ![contact page screen shot](./assets/images/contact-page-screenshot.png)
 
 
-## Credits:
+## Credits
 
 Some of the projects on the portfolio page were team efforts and their respective repostitory pages appropriately reflect the contributors. 
 
