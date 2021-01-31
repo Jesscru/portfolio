@@ -3,7 +3,7 @@ body {
     font-family: 'Spartan', sans-serif !important;
     font-weight: 200;
     line-height: 2;
-    background-image: url("./assets/images/abstract-black-background.jpg");
+    background-image: url("../assets/images/abstract-black-background.jpg");
     background-repeat: no-repeat;
     background-color: rgb(2, 2, 2);
     background-size: auto;
@@ -131,13 +131,15 @@ li {
 
 
 /* for portfolio.html */
-.header {
-    color: rgb(193, 193, 193);
-    text-align: center;
+
+.clearfix {
+    overflow: hidden;
 }
 
+
 #instructions {
-    color: rgb(151, 148, 148);    
+    color: rgb(151, 148, 148);   
+    text-align: center; 
 }
 
 .port-nav {
@@ -149,7 +151,6 @@ li {
 }
 
 .project-display {
-    /* margin-left: 6rem; */
     margin: 0 auto;
     width: 65%;
 }
@@ -182,16 +183,19 @@ li {
 
 
 /* for contact.html */
-.header2 {
-    color: rgb(193, 193, 193);
-    text-align: center;
-    margin-top: 1.5rem
+.relative {
+    display: relative;
 }
 
+.contact-nav {
+    justify-content: flex-start;
+}
+
+
 .form {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 50%; */
+    /* margin-left: auto;
+    margin-right: auto; */
     position: relative;
     visibility: hidden;
 }
@@ -217,7 +221,7 @@ input.form-control:focus {
    -webkit-transition: none;
   }
 
-#search-button {
+#submit-button {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -227,40 +231,58 @@ input.form-control:focus {
     border-radius: 0.7rem;
 }
 
+
+#just-links {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
 .contact {
     color: rgb(113, 113, 113);
-    text-align: center;
-    margin-top: 7rem;
-    margin-right: 1rem;
+
+
+    /* text-align: center; */
+    /* margin-top: 7rem; */
+    /* margin-right: 1rem; */
 }
 
 .email-icon {
-    width: 50%;
+    width: 80%;
     cursor: pointer;
-    margin-left: 4rem;
-    position: absolute;
-    top: 8rem;
+
+    /* margin-left: 4rem; */
+    /* position: absolute; */
+    /* top: 8rem; */
 }
 
 .message-icon {
-    width: 50%;
+    width: 80%;
     cursor: pointer;
-    margin-left: 4rem;
-    position: absolute;
-    top: 9rem;
+
+    /* margin-left: 4rem; */
+    /* position: absolute; */
+    /* top: 9rem; */
 }
 
+
 .download-or-visit{ 
-    text-align: center;
-    color: rgb(193, 193, 193);
+    /* text-align: center; */
+    background-color: rgba(193, 193, 193, 0.521);
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .find-me {
     color: rgb(113, 113, 113);
-    bottom: 0;
-    float: left;
-    text-align: center;
-    margin: 0;
+    /* bottom: 0; */
+    /* float: left; */
+    /* text-align: center; */
+    /* margin: 0; */
 }
 
 .find-me:hover {
@@ -273,12 +295,12 @@ input.form-control:focus {
 }
 
 .download {
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
 }
 
 .social {
-    float: right;
-    padding-right: 4rem;
+    /* float: right; */
+    /* padding-right: 4rem; */
 }
 
 .contact-image:hover {
@@ -294,11 +316,6 @@ input.form-control:focus {
     display: inline;
 }
 
-#footer {
-    position: absolute;
-    bottom: 5%;
-    width: 100%;
-}
 
 
 
