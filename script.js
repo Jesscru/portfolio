@@ -19,7 +19,7 @@ const contactInfo = $('.email-and-phone');
 
 const resumeInfo = {
     skills: {
-        general: ['Web development',  'Team collaboration', 'Teaching and training', 'Attentive to detail', 'Malleable and adaptable'],
+        general: ['Problem Solving',  'Team collaboration', 'Teaching and training', 'Attentive to detail', 'Work well under pressure'],
         codingSpecific: ['HTML', 'CSS', 'Javascript']
     },
 
@@ -36,11 +36,18 @@ const resumeInfo = {
     }, 
 
     education: {
-        university: 'University of Mississippi', 
-        years: 'August 2015-May 2019',
-        major: 'B.A. Psychology', 
-        minors: 'Spanish, chemistry, biology',
-        GPA: 3.74
+        college: {
+            university: 'University of Mississippi', 
+            years: 'August 2015—May 2019',
+            major: 'B.A. Psychology', 
+            minors: 'Spanish, chemistry, biology',
+        }, 
+        coding: {
+            university: 'UCLA Coding Bootcamp', 
+            years: 'October 2020—May 2021',
+            major: 'Web Development', 
+        }
+        
     }
 };
 
@@ -72,29 +79,48 @@ const resumeInfo = {
     })
 
     $("#education").mouseover(function() {
-        const {university, years, major, minors, GPA} = resumeInfo.education;
-        let newList = $('<ul>');
-        let newListItem1 = $('<li>');
-        let newListItem2 = $('<li>');
-        let newListItem3 = $('<li>');
-        let newListItem4 = $('<li>');
-        let newListItem5 = $('<li>');
+        
+        let coding = $('<ul>');
+        let codingItem1 = $('<li>');
+        let codingItem2 = $('<li>');
+        let codingItem3 = $('<li>');
 
-        newListItem1.html(`${university}`);
+        codingItem1.html(`${resumeInfo.education.coding.university}`);
 
-        newListItem2.html(`${years}`);
+        codingItem2.html(`${resumeInfo.education.coding.years}`);
     
-        newListItem3.html(`Major: ${major}`);
+        codingItem3.html(`${resumeInfo.education.coding.major}`);
     
-        newListItem4.html(`Minors: ${minors}`);
+        coding.append(codingItem1);
+        coding.append(codingItem2);
+        coding.append(codingItem3);
+        populateInfo.append(coding);
 
-        newListItem5.html(`GPA: ${GPA}`);
-        newList.append(newListItem1);
-        newList.append(newListItem2);
-        newList.append(newListItem3);
-        newList.append(newListItem4);
-        newList.append(newListItem5);
-        populateInfo.append(newList);
+
+        const { university, years, major, minors, GPA } = resumeInfo.education.college;
+        let college = $('<ul>');
+        let collegeItem1 = $('<li>');
+        let collegeItem2 = $('<li>');
+        let collegeItem3 = $('<li>');
+        let collegeItem4 = $('<li>');
+
+        collegeItem1.html(`${university}`);
+
+        collegeItem2.html(`${years}`);
+    
+        collegeItem3.html(`Major: ${major}`);
+    
+        collegeItem4.html(`Minors: ${minors}`);
+
+        college.append(collegeItem1);
+        college.append(collegeItem2);
+        college.append(collegeItem3);
+        college.append(collegeItem4);
+        populateInfo.append(college);
+
+
+
+        
     })
 
     // $("#education").mouseover(function() {

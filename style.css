@@ -8,12 +8,12 @@ body {
     background-color: rgb(2, 2, 2);
     background-size: auto;
     letter-spacing: 0.12rem;
+    margin: 50px 0;
 }
 
 nav.nav
 .all-pages 
 .nav-link{
-    background-color: rgba(243, 240, 240, 0.493);
     display: inline;
     width: 20%;
 }
@@ -70,6 +70,7 @@ nav.nav
     color: whitesmoke;
     margin: 3rem;
     text-align: center;
+    
 }
 
 
@@ -78,24 +79,40 @@ nav.nav
 
 
 /* for resume.html */
+#res-cont {
+    display: flex;
+}
+
 .resume {
     width: 75%;
-    display: inline;
+    margin-left: 4rem;
+}
 
+#titles {
+    text-align: center;
 }
 
 .resume-section {
     color: rgb(193, 193, 193);
-    margin-top: 8rem;
+    display: inline;
+    align-items: center;
+    justify-content: center;
     font-size: 24px;
+    background-color: rgba(193, 193, 193, 0.322);
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin: 8rem 2.5rem 0 0;
+    padding: 0.5rem 2rem;
 }
 
 .resume-section:hover {
     color: whitesmoke;
-}
-
-.resume {
-    margin-left: 4rem;
+    background-color: rgba(193, 193, 193, 0.521);
+    border-radius: 20px;
+    height: auto;
+    width: auto;
 }
 
 #skills {
@@ -105,7 +122,7 @@ nav.nav
 #white-box {
     text-align: center;
     vertical-align: middle;
-    margin-top: 3rem;
+    margin: 3rem;
     background-color: rgba(193, 193, 193, 0.521);
     border-radius: 20px;
     height: auto;
@@ -253,7 +270,7 @@ input.form-control:focus {
     box-shadow: none;
    -webkit-box-shadow: none;
    -moz-box-shadow: none;
-   -moz-transition: none;
+   transition: none;
    -webkit-transition: none;
   }
 
