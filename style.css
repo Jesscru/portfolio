@@ -2,7 +2,7 @@
 body {
     font-family: 'Spartan', sans-serif !important;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: 2;
     background-image: url("./assets/images/abstract-black-background.jpg");
     background-repeat: no-repeat;
     background-color: rgb(2, 2, 2);
@@ -11,11 +11,9 @@ body {
     margin: 50px 0;
 }
 
-nav.nav
-.all-pages 
-.nav-link{
-    display: inline;
-    width: 20%;
+.container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .brand {
@@ -52,25 +50,16 @@ nav.nav
 
 
 /* for index.html */
-.header {
-    color: rgb(193, 193, 193);
-    text-align: center;
-    margin-top: 1.5rem;
-}
-
 .profile-pic {
-    height: 60%;
+    height: auto;
     width: 60%;
-    float: right;
     margin-left: 8rem;
-    margin-top: 3rem;
 }
 
 .about-me-text {
     color: whitesmoke;
     margin: 3rem;
     text-align: center;
-    
 }
 
 
@@ -79,10 +68,6 @@ nav.nav
 
 
 /* for resume.html */
-#res-cont {
-    display: flex;
-}
-
 .resume {
     width: 75%;
     margin-left: 4rem;
@@ -138,55 +123,7 @@ li {
     color: whitesmoke;
 }
 
-.download-or-visit{ 
-    text-align: center;
-    color: rgb(193, 193, 193);
-}
 
-.find-me {
-    color: rgb(113, 113, 113);
-    bottom: 0;
-    float: left;
-    text-align: center;
-    margin: 0;
-}
-
-.find-me:hover {
-    text-decoration: none;
-}
-
-.download-resume {
-    width: 10%;
-    filter: grayscale(50%);
-}
-
-.download {
-    padding-left: 0.5rem;
-}
-
-.social {
-    float: right;
-    padding-right: 4rem;
-}
-
-.contact-image:hover {
-    text-decoration: none;
-}
-
-.contact-image {
-    background-color: rgb(193, 193, 193);
-    border-radius: 0.7rem;
-    width: 3.5rem;
-    height: 3.5rem;
-    cursor: pointer;
-    display: inline;
-}
-
-#footer {
-    position: absolute;
-    bottom: 5%;
-    width: 100%;
-}
 
 
 
@@ -194,23 +131,34 @@ li {
 
 
 /* for portfolio.html */
-#instructions {
-    color: rgb(120, 120, 120);
+.header {
+    color: rgb(193, 193, 193);
     text-align: center;
 }
 
+#instructions {
+    color: rgb(151, 148, 148);    
+}
 
-.flex {
-    display: flex;
+.port-nav {
+    margin-left: 7rem;
+}
+
+#port-cont {
+    width: 30%;
+}
+
+.project-display {
+    /* margin-left: 6rem; */
+    margin: 0 auto;
+    width: 65%;
 }
 
 .portfolio-image {
     margin-top: 2rem;
-    margin-left: 2rem;
     margin-bottom: 2rem;
-    width: 500px;
-    height: 350px;
-    display: block;
+    width: 650px;
+    height: auto;
     filter: grayscale(100%);
 }
 
@@ -219,7 +167,7 @@ li {
 }
 
 .repo-link {
-    color: rgb(120, 120, 120);
+    color: rgb(151, 148, 148);    
     text-align: center;
     margin: 0;
     padding: 0;
@@ -229,11 +177,6 @@ li {
     color: whitesmoke;
     text-decoration: none;
 }
-
-.low-row {
-    margin-bottom: 5rem;
-}
-
 
 
 
@@ -307,6 +250,56 @@ input.form-control:focus {
     top: 9rem;
 }
 
+.download-or-visit{ 
+    text-align: center;
+    color: rgb(193, 193, 193);
+}
+
+.find-me {
+    color: rgb(113, 113, 113);
+    bottom: 0;
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+
+.find-me:hover {
+    text-decoration: none;
+}
+
+.download-resume {
+    width: 10%;
+    filter: grayscale(50%);
+}
+
+.download {
+    padding-left: 0.5rem;
+}
+
+.social {
+    float: right;
+    padding-right: 4rem;
+}
+
+.contact-image:hover {
+    text-decoration: none;
+}
+
+.contact-image {
+    background-color: rgb(193, 193, 193);
+    border-radius: 0.7rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+    display: inline;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
 
 
 
@@ -320,10 +313,6 @@ input.form-control:focus {
     .portfolio-image {
         width: 75%;
         margin-left: 7rem;
-    }
- 
-    .low-row {
-        margin-bottom: 2rem;
     }
 
      .email-icon {
@@ -342,15 +331,6 @@ input.form-control:focus {
 
 @media screen and (max-width: 1024px) {
 
-  .portfolio-image {
-       width: 75%;
-       margin-left: 7rem;
-    }
-
-    .low-row {
-        margin-bottom: 2rem;
-    }
-
     .email-icon {
         margin-left: 1rem;
     }
@@ -359,9 +339,6 @@ input.form-control:focus {
 
 @media screen and (max-width: 992px) {
 
-    .low-row {
-        margin-bottom: 2rem;
-    }
 
     .email-icon {
         margin-left: 0.3rem;
@@ -371,9 +348,6 @@ input.form-control:focus {
 
 @media screen and (max-width: 768px) {
 
-    .portfolio-image {
-        margin-left: 6rem;
-    }
 
     .email-icon, 
     .message-icon {
@@ -394,11 +368,6 @@ input.form-control:focus {
 }
 
 @media screen and (max-width: 575px) {
-
-    /* .profile-pic {
-        margin: 0;
-        padding-top: 5rem;
-    } */
 
     #white-box {
         margin-top: 1.5rem;
@@ -449,9 +418,6 @@ input.form-control:focus {
         margin-top: 6rem;
     }
 
-    /* .form {
-        margin-top: 3rem;
-    } */
 }
 
 @media screen and (max-width: 540px) {
@@ -461,11 +427,6 @@ input.form-control:focus {
 
     .header {
         margin-top: 6.5rem;
-    }
-
-    .portfolio-image {
-        width: 90%;
-        margin-left: 2rem;
     }
 
     .message-icon {
@@ -487,11 +448,6 @@ input.form-control:focus {
 
     .nav-link {
         padding-right: 1.5rem;
-    }
-    
-    .portfolio-image {
-        width: 90%;
-        margin-left: 1.5rem;
     }
 
     #footer {
