@@ -21,16 +21,16 @@ This portfolio serves to compile and showcase my professional abilities. It is a
 Below is what the viewer will see upon visiting each tab of the site. 
 
 ### Home Tab
-![homepage screen shot](./assets/images/portfolio-homepage-screenshot.png)
+![homepage screen shot](./public/assets/images/portfolio-homepage-screenshot.png)
 
 ### Resume Tab
-![resume page screen shot](./assets/images/resume-page-screenshot.png)
+![resume page screen shot](./public/assets/images/resume-page-screenshot.png)
 
 ### Portfolio Tab
-![portfolio page screen shot](./assets/images/portfolio-page-screenshot.png)
+![portfolio page screen shot](./public/assets/images/portfolio-page-screenshot.png)
 
 ### Contact Tab
-![contact page screen shot](./assets/images/contact-page-screenshot.png)
+![contact page screen shot](./public/assets/images/contact-page-screenshot.png)
 
 
 ## Credits
