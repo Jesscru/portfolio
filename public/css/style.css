@@ -191,130 +191,41 @@ li {
     justify-content: flex-start;
 }
 
-
-.form {
-    /* width: 50%; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    position: relative;
-    visibility: hidden;
-}
-
-label {
-    color: rgb(193, 193, 193);
-}
-
-.form-control {
-    background-color: rgba(33, 33, 33, 0.559);
-    
-}
-
-input.form-control:focus {
-    background-color:rgba(33, 33, 33, 0.559);
-    color: whitesmoke;
-    border-color: whitesmoke !important;
-    box-shadow: whitesmoke !important;
-    box-shadow: none;
-   -webkit-box-shadow: none;
-   -moz-box-shadow: none;
-   transition: none;
-   -webkit-transition: none;
-  }
-
-#submit-button {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    color: black;
-    background-color: whitesmoke;
-    border-radius: 0.7rem;
-}
-
-
-#just-links {
-    display: inline;
-    align-items: center;
-    justify-content: center;
+.contact-icon {
+    background-color: rgb(193, 193, 193);
+    border-radius: 1.45rem;
+    cursor: pointer;
+    padding: 20px;
+    width: 256px;
     height: auto;
-    width: auto;
-}
-
-.contact {
-    color: rgb(113, 113, 113);
-
-
-    /* text-align: center; */
-    /* margin-top: 7rem; */
-    /* margin-right: 1rem; */
-}
-
-.email-icon {
-    width: 80%;
-    cursor: pointer;
-
-    /* margin-left: 4rem; */
-    /* position: absolute; */
-    /* top: 8rem; */
-}
-
-.message-icon {
-    width: 80%;
-    cursor: pointer;
-
-    /* margin-left: 4rem; */
-    /* position: absolute; */
-    /* top: 9rem; */
-}
-
-
-.download-or-visit{ 
-    /* text-align: center; */
-    background-color: rgba(193, 193, 193, 0.521);
-    height: 3rem;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
-.find-me {
-    color: rgb(113, 113, 113);
-    /* bottom: 0; */
-    /* float: left; */
-    /* text-align: center; */
-    /* margin: 0; */
-}
-
-.find-me:hover {
-    text-decoration: none;
-}
-
-.download-resume {
-    width: 10%;
-    filter: grayscale(50%);
-}
-
-.download {
-    /* padding-left: 0.5rem; */
 }
 
 .social {
-    /* float: right; */
-    /* padding-right: 4rem; */
+    margin-top: 40px;
 }
 
-.contact-image:hover {
-    text-decoration: none;
+
+#github {
+    margin-top: 40px;
 }
 
-.contact-image {
-    background-color: rgb(193, 193, 193);
-    border-radius: 0.7rem;
-    width: 3.5rem;
-    height: 3.5rem;
-    cursor: pointer;
-    display: inline;
+#download {
+    margin-top: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
